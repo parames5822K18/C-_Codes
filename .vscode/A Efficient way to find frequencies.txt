@@ -1,0 +1,5 @@
+A Efficient way to find frequencies (instead of using count() fun):
+	map <ll,ll> freq;
+	for(auto x:vec){
+		freq[x]++;
+} 
